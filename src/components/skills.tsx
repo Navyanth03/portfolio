@@ -99,6 +99,7 @@ const HoverImageComponent: React.FC = () => {
                         width={48}
                         height={48}
                         className="object-cover"
+                        unoptimized
                       />
                     ) : (
                       <div></div> // Placeholder for empty image
