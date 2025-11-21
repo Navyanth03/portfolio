@@ -22,6 +22,11 @@ const slugs = [
   "linux",
   "render",
   "postman",
+  "rust",
+  "solidity",
+  "web3",
+  "docker",
+  "kuberbetes",
 ];
 
 export function IconCloudDemo() {

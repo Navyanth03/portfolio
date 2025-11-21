@@ -1,4 +1,9 @@
-import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from "./ui/tooltip";
+import {
+  TooltipProvider,
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from "./ui/tooltip";
 import Link from "next/link";
 import { FC, SVGProps } from "react";
 
@@ -6,7 +11,7 @@ export default function Footer() {
   return (
     <footer className=" py-8 md:py-12 w-full">
       <div className="container max-w-7xl flex flex-col items-center justify-center gap-6 md:flex-row md:justify-between">
-        <div className="flex items-center gap-4">   
+        <div className="flex items-center gap-4">
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
@@ -20,7 +25,7 @@ export default function Footer() {
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
-                <p>https://www.linkedin.com/in/m-navyanth-bb475b288/</p>
+                <p>www.linkedin.com/in/navyanth-mekala-bb475b288</p>
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
@@ -29,8 +34,6 @@ export default function Footer() {
     </footer>
   );
 }
-
-
 
 const LinkedinIcon: FC<SVGProps<SVGSVGElement>> = (props) => (
   <svg
