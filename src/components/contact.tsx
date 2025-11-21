@@ -70,7 +70,7 @@ const ContactMe: React.FC = () => {
           whileHover={{ scale: 1.1, rotate: 5 }}
         >
           <img
-            src="/assets/leetcode.png"
+            src="/assets/skills/leetcode.png"
             alt="LeetCode"
             className="h-8 w-8 mb-2 object-contain"
           />
